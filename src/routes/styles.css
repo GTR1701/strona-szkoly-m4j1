@@ -47,6 +47,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
+	
 }
 
 h1 {
@@ -56,6 +57,11 @@ h1 {
 
 h2 {
 	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+}
+footer {
+	background-color: var(--color-theme-2);
 }
 
 pre {

@@ -11,10 +11,16 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/root">Home</a>
+				<a href="/">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/root/about">About</a>
+			<li aria-current={$page.url.pathname === '/informatyk' ? 'page' : undefined}>
+				<a href="/informatyk">Informatyk</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/programista' ? 'page' : undefined}>
+				<a href="/programista">Programista</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/teleinformatyk' ? 'page' : undefined}>
+				<a href="/teleinformatyk">Teleinformatyk</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
